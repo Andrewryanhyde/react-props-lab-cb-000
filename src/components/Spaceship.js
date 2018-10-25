@@ -12,9 +12,10 @@ export default class Spaceship extends React.component{
   }
 }
 
+const color = ['black', 'red']
 
 
 ReactDOM.render(
-  <Spaceship 
+  <Spaceship
     name=""
 )
