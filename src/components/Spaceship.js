@@ -15,7 +15,8 @@ export default class Spaceship extends React.component{
 const color = ['black', 'red']
 
 
-ReactDOM.render(
-  <Spaceship
-    name=""
-)
+Spaceship.defaultProps = {
+  speed: 'slow',
+  hasRockets: false,
+  colors: color
+}
